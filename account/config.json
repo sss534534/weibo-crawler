@@ -31,5 +31,12 @@
     "post_config": {
         "api_url": "https://api.example.com",
         "api_token": ""
+    },
+
+    "llm_config": {
+        "api_base": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+        "api_key": "sk-e28e7ba7e9d9403da6e5f7d1aa521f6b",
+        "model": "qwen-plus"
     }
+
 }
