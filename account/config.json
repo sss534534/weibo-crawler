@@ -5,7 +5,9 @@
     "start_page": 1,
     "page_weibo_count": 10,
     "write_mode": [
-        "csv"
+        "csv",
+        "sqlite",
+        "mysql"
     ],
     "original_pic_download": 1,
     "retweet_pic_download": 0,
@@ -27,7 +29,7 @@
         "password": "root",
         "charset": "utf8mb4"
     },
-    "store_binary_in_sqlite": 0,
+    "store_binary_in_sqlite": 1,
     "post_config": {
         "api_url": "https://api.example.com",
         "api_token": ""

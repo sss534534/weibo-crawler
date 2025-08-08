@@ -954,6 +954,7 @@ class Weibo(object):
                     "bool" not in str(type(v))
                     and "int" not in str(type(v))
                     and "list" not in str(type(v))
+                    and "dict" not in str(type(v))
                     and "long" not in str(type(v))
             ):
                 weibo[k] = (
