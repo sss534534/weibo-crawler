@@ -54,6 +54,9 @@ cmake-build-*/
 # IntelliJ
 out/
 
+crawls/
+结果文件/
+
 # mpeltonen/sbt-idea plugin
 .idea_modules/
 
