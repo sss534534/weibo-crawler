@@ -1,6 +1,6 @@
 import csv
 import os
-import const
+from account import const
 
 
 def insert_or_update_user(logger, headers, result_data, file_path):

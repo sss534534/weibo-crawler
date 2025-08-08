@@ -654,12 +654,12 @@ python weibo.py
 
 ```python
         if not os.path.isfile('./config.json'):
-            sys.exit(u'当前路径：%s 不存在配置文件config.json' %
-                     (os.path.split(os.path.realpath(__file__))[0] + os.sep))
-        with open('./config.json') as f:
-            config = json.loads(f.read())
-        wb = Weibo(config)
-        wb.start()  # 爬取微博信息
+  sys.exit(u'当前路径：%s 不存在配置文件config.json' %
+           (os.path.split(os.path.realpath(__file__))[0] + os.sep))
+with open('config.json') as f:
+  config = json.loads(f.read())
+wb = Weibo(config)
+wb.start()  # 爬取微博信息
 ```
 
 用户可以按照自己的需求调用或修改Weibo类。
@@ -957,4 +957,4 @@ services:
 
 根目录下service.py提供了一个简单的restful api示例，运行`python service.py`启动服务后可以通过http请求定时更新以及查询微博
 
-文档参考[API说明](./API.md)
+文档参考[API说明](API.md)

@@ -1,5 +1,5 @@
 import requests
-import const
+from account import const
 
 
 def push_deer(append_str):

@@ -1,0 +1,35 @@
+{
+    "user_id_list": "user_id_list.txt",
+    "only_crawl_original": 0,
+    "since_date": 1,
+    "start_page": 1,
+    "page_weibo_count": 10,
+    "write_mode": [
+        "csv"
+    ],
+    "original_pic_download": 1,
+    "retweet_pic_download": 0,
+    "original_video_download": 1,
+    "retweet_video_download": 0,
+    "original_live_photo_download": 1,
+    "retweet_live_photo_download": 0,
+    "download_comment": 1,
+    "comment_max_download_count": 100,
+    "download_repost": 1,
+    "repost_max_download_count": 100,
+    "user_id_as_folder_name": 0,
+    "remove_html_tag": 1,
+    "cookie": "_s_tentry=-; Apache=7676583773253.67.1753062666494; SINAGLOBAL=7676583773253.67.1753062666494; ULV=1753062666508:1:1:1:7676583773253.67.1753062666494:; SCF=Asx1jauNweZsr2a9qzi7j19K0IIX0NQSBPV9KYk0JzI3z_sYynOur3okETtO5AbO8yjtYL7q5s4qKnCeFfGl1-Y.; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9WW8.79pwl7SBvn8VzF.9o_f5JpX5KMhUgL.FoeRSoMceKq7eoz2dJLoI7yD9cvr9PxDU5tt; UOR=,,huahuan.cpolar.cn; XSRF-TOKEN=jkxViJvzl00jteBDjhPb69yH; ALF=1757208339; SUB=_2A25FkSJDDeRhGeVG7VUX8SjMyT6IHXVm7zuLrDV8PUJbkNANLWzskW1NT4_6KB1xKrpMbji9XurRmSCb-hRXz6XA; WBPSESS=RoEfF4WmAKBpSq2lIVIfy4clORqeuKSDT6U0FAOlFLtO4INtGLVRre9iT-Db8l5wv2GEzGvQX2Ai0CQOku7a0KuE4Ur-HL4QfWQmuyKjjcwdm931SlcZGhpDc1widdN8_pHbvPUXC07Xn9lkdeGdDg==",
+    "mysql_config": {
+        "host": "localhost",
+        "port": 3306,
+        "user": "root",
+        "password": "root",
+        "charset": "utf8mb4"
+    },
+    "store_binary_in_sqlite": 0,
+    "post_config": {
+        "api_url": "https://api.example.com",
+        "api_token": ""
+    }
+}
